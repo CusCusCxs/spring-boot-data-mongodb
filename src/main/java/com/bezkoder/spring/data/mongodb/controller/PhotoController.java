@@ -9,7 +9,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.util.Base64;
-
+@CrossOrigin(origins = "http://localhost:8081")
+@RestController
 @RequestMapping("/api")
 public class PhotoController {
     @Autowired
