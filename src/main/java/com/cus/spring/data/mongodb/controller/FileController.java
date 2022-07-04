@@ -1,7 +1,7 @@
-package com.bezkoder.spring.data.mongodb.controller;
+package com.cus.spring.data.mongodb.controller;
 
-import com.bezkoder.spring.data.mongodb.model.LoadFile;
-import com.bezkoder.spring.data.mongodb.services.FileService;
+import com.cus.spring.data.mongodb.model.LoadFile;
+import com.cus.spring.data.mongodb.services.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.http.HttpHeaders;

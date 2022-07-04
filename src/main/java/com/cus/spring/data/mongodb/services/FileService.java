@@ -1,7 +1,7 @@
-package com.bezkoder.spring.data.mongodb.services;
+package com.cus.spring.data.mongodb.services;
 
 
-import com.bezkoder.spring.data.mongodb.model.LoadFile;
+import com.cus.spring.data.mongodb.model.LoadFile;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
 import com.mongodb.client.gridfs.model.GridFSFile;

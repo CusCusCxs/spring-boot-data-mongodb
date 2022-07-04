@@ -1,9 +1,11 @@
-package com.bezkoder.spring.data.mongodb.controller;
+package com.cus.spring.data.mongodb.controller;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import com.cus.spring.data.mongodb.model.Tutorial;
+import com.cus.spring.data.mongodb.repository.TutorialRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,9 +19,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.bezkoder.spring.data.mongodb.model.Tutorial;
-import com.bezkoder.spring.data.mongodb.repository.TutorialRepository;
 
 @CrossOrigin(origins = "http://localhost:8081")
 @RestController

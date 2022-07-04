@@ -1,4 +1,4 @@
-package com.bezkoder.spring.data.mongodb.model;
+package com.cus.spring.data.mongodb.model;
 
 import lombok.Data;
 
